@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "st_worf",
   "display_name": "Worf (Star Trek)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": { "name": "OmegaZero", "github": "OmegaZero" },
   "license": "MIT",
   "language": "en",
@@ -19,18 +19,18 @@
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/AGoodDayToDie.mp3", "label": "Today is a good day to die" }
+        { "file": "sounds/DayToDie.mp3", "label": "Today is a good day to die" }
       ]
     },
     "task.error": {
       "sounds": [
         { "file": "sounds/UnidentifiedVessel.mp3", "label": "Unidentified Vessel" },
-        { "file": "sounds/CannotLocateTheCaptain.mp3", "label": "Cannot locate the Captain" }
+        { "file": "sounds/WheresCaptain.wav", "label": "Cannot locate the Captain" }
       ]
     },
     "input.required": {
       "sounds": [
-        { "file": "sounds/CaptainIncomingMessage.mp3", "label": "Captain, Incoming Message" },
+        { "file": "sounds/IncomingMessage.wav", "label": "Captain, Incoming Message" },
         { "file": "sounds/WeAreBeingHailed.wav", "label": "We are being hailed sir" },
         { "file": "sounds/HailingFrequenciesOpenSir.mp3", "label": "Hailing Frequencies Open Sir" }        
       ]
