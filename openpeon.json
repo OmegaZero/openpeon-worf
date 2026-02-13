@@ -38,7 +38,7 @@
     "resource.limit": {
       "sounds": [
         { "file": "sounds/WeakHuman.mp3", "label": "Blocked" },
-        { "file": "sounds/MerryWorf.mp3", "label": "Sir, I protest I am not a merry man!" }
+        { "file": "sounds/MerryWorf.wav", "label": "Sir, I protest I am not a merry man!" }
       ]
     },
     "user.spam": {
