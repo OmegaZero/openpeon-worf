@@ -1,0 +1,22 @@
+name: Get Info
+
+on:
+  push:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: SHA256 openpeon.json
+        run: shasum -a 256 openpeon.json
+
+      - name: Sounds folder stats
+        run: |
+          echo "Total bytes in sounds folder:"
+          du -sb sounds | cut -f1
+
+          echo "Total files in sounds folder:"
+          find sounds -type f | wc -l
